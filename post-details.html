@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Info about post</title>
+    <style>
+        body {
+            margin: 0;
+            background: var(--s-button, linear-gradient(152deg, #e7e73f 0%, #000 100%));
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #postDetailsBlock {
+            width: 90vw;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            width: 100%;
+            height: 5%;
+            margin-top: 0;
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Helvetica', sans-serif;
+        }
+        .postInfoBlock {
+            width: 100%;
+            height: 20%;
+            color: white;
+            background: black;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+        }
+        .postInfoBlock ul {
+            padding-right: 40px;
+        }
+        .postInfoBlock li {
+            font-weight: bold;
+            font-size: 17px;
+            font-family: 'Helvetica', sans-serif;
+        }
+        .comments {
+            width: 100%;
+            height: 70%;
+            margin-top: 2%;
+            display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .commentBlock {
+            width: 23%;
+            height: 48%;
+            /*padding-top: 3%;*/
+            background: black;
+            border-radius: 20px;
+            font-size: 14.5px;
+            font-family: 'Helvetica', sans-serif;
+            color: white;
+            display: flex;
+            align-items: flex-start;
+        }
+        .commentBlock ul {
+            margin-top: 9%;
+            padding-right: 40px;
+        }
+        ul {
+            margin: 0;
+            /*padding-left: 0;*/
+        }
+        li {
+            list-style-type: none;
+        }
+        span {
+            color: #e7e73f;
+            text-transform: uppercase;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<script src="post-details.js"></script>
+</body>
+</html>

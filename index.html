@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+    <style>
+        body {
+            margin: 0;
+            background: var(--s-button, linear-gradient(152deg, #e7e73f 0%, #000 100%));
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #users {
+            width: 50vw;
+            height: 85vh;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .user {
+            width: 40%;
+            height: 19%;
+            background: black;
+            border-radius: 20px;
+            font-size: 14px;
+            font-family: 'Helvetica', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .user h2 {
+            color: white;
+        }
+        .userInfoButton {
+            width: 30%;
+            height: 25%;
+            border-radius: 36px;
+            border: 1px solid #000;
+            background: var(--s-button, linear-gradient(152deg, #e7e73f 0%, #000 100%));
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 12px;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+        .userInfoButton:hover {
+            background: white;
+            color: black;
+            transition: 0.3s;
+            transform: translateY(-0.3em);
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<script src="index.js"></script>
+</body>
+</html>

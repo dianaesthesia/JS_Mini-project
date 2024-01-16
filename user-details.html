@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Info about user</title>
+    <style>
+        body {
+            margin: 0;
+            background: var(--s-button, linear-gradient(152deg, #e7e73f 0%, #000 100%));
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #userDetailsBlock {
+            width: 90vw;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .infoUserBlock {
+            width: 100%;
+            height: 50%;
+            margin-bottom: 60px;
+            color: white;
+            background: black;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+        }
+        .postsOfCurrentUserButton {
+            width: 100%;
+            height: 10%;
+            margin-bottom: 1.5%;
+            background: black;
+            color: #e7e73f;
+            border-radius: 36px;
+            border: 1px solid #000;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            text-transform: uppercase;
+            transition: all 0.3s ease-in 0s;
+        }
+        .postsOfCurrentUserButton:hover {
+            background: white;
+            color: black;
+        }
+        .posts {
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .post {
+            width: 18%;
+            height: 48%;
+            /*padding: 0 10px 0 10px;*/
+            background: black;
+            border-radius: 20px;
+            font-size: 17px;
+            font-family: 'Helvetica', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .post p {
+            margin-top: 0;
+            color: white;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 80%;
+            white-space: nowrap;
+        }
+        .postDetailsButton {
+            width: 30%;
+            height: 23%;
+            border-radius: 36px;
+            border: 1px solid #000;
+            background: var(--s-button, linear-gradient(152deg, #e7e73f 0%, #000 100%));
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 11px;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+        .postDetailsButton:hover {
+            background: white;
+            color: black;
+            transition: 0.3s;
+            transform: translateY(-0.3em);
+        }
+        ul {
+            margin: 0;
+        }
+        li {
+            font-weight: bold;
+            font-size: 15px;
+            font-family: 'Helvetica', sans-serif;
+            list-style-type: none;
+        }
+        span {
+            color: #e7e73f;
+            text-transform: uppercase;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<script src="user-details.js"></script>
+</body>
+</html>
